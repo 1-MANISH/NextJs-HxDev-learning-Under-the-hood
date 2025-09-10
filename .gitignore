@@ -1,0 +1,27 @@
+*node_modules
+*.excalidraw
+Exalidraw board/
+*.env
+
+
+
+.next/
+out/
+dist/
+
+# Logs
+*.log
+
+
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
