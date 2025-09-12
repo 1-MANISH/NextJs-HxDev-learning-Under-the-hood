@@ -1,5 +1,4 @@
 
-
 const User = async  ({params} : {params : {userId : string}}) => {
 
         const {userId} = await params
