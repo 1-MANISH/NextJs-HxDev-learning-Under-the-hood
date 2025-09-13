@@ -1,0 +1,9 @@
+.heading{
+        color: rgb(195, 46, 138);
+        background-color: rgb(130, 214, 112);
+        width: 100vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
