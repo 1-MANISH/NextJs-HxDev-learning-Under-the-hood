@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import React from 'react'
+import Card from '../components/card'
 
 export const metadata:Metadata = {
         title: 'Games List',
@@ -22,15 +23,15 @@ const Games = () => {
   return (
     <div>
         <h1>Games</h1>
-        <ul>
+        <div className='flex gap-4 my-4'>
             {
                 games.map((game) => (
                 <Link key={game.id} href={`/games/${game.name.toLowerCase()}`}>
-                                <li>{game.name}</li> 
+                                <Card>{game.name}</Card> 
                 </Link>
                 ))
             }
-        </ul>
+        </div>
     </div>
   )
 }
