@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Music = () => {
-        return <div>
-                Music Page
-        </div>
+        return null;
+        // return <div>
+        //         Music Page (Container)
+        // </div>
 }
 
 export default Music
